@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            background-color: #f0f0f0;
+            margin: 20px auto;
+            padding: 20px;
+            width: 90%;
+            height: 200vh;
+            border-radius: 10px;
+            background-color: aqua;
+        }
+
+        .navbaar {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            border-radius: 10px;
+        }
+
+        .navbaar ul {
+            list-style-type: none;
+        }
+
+        .navbaar li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        .navbaar li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .content {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        .box1,
+        .box2 {
+            width: 48%;
+            height: 600px;
+            border-radius: 10px;
+
+        }
+
+        .box1 {
+            background-color: #ff6347;
+            /* Tomato */
+            text-align: center;
+            padding: 2px;
+            font-size: 1.5em;
+            color: white;
+            margin-bottom: 20px;
+        }
+
+        .box2 {
+            background-color: #4682b4;
+            /* SteelBlue */
+        }
+
+        .about {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+            /* position: fixed; */
+        }
+
+        .circle-icon {
+            width: 50px;
+            height: 50px;
+            background-color: #3498db;
+            border-radius: 50%;
+            display: flex;
+            justify-content: flex-end;
+            align-items: end;
+            color: white;
+            font-size: 24px;
+            position: relative;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbaar">
+            <ul>
+                <li>Home</li>
+                <li>Explore</li>
+                <li>Contact</li>
+                <li>About Us</li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="box1">
+                box1 content
+            </div>
+            <div class="box2">
+
+            </div>
+        </div>
+        <div class="circle-icon">
+            <!-- Your icon content goes here, e.g., a Font Awesome icon -->
+            <i class="fas fa-star"></i>
+        </div>
+
+
+    </div>
+    <div class="footer">
+        <p>© 2023 Your Company. All rights reserved.</p>
+        <p>Follow us on social media!</p>
+    </div>
+</body>
+
+</html>

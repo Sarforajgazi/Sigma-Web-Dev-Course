@@ -1,11 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .card {
+            width: 300px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            background: #f9f9f9;
+            overflow: auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            font-family: Arial, sans-serif;
+        }
+
+        .card-content {
+            padding: 10px;
+            box-sizing: border-box;
+
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+            border: 1px solid #ccc;
+
+        }
+
+        .description {
+            font-weight: 10;
+        }
+
+        .tag {
+            display: inline-block;
+            border: #ccc 1px solid;
+            border-radius: 10px;
+        }
+
+        .read-more  {
+            color: blue;
+            cursor: pointer;
+            border: #ccc 1px solid;
+            border-radius: 10px;
+            display: inline-block;
+            text-align: center;
+            
+
+        }
+
+        .read-more:hover {
+            text-decoration: underline;
+        }
+    </style>
+
 </head>
+
 <body>
     <!-- card.png is a file which contains a card Image. Write html and css code to design this card. Use #html -->
+    <div class="card">
+        <div class="card-content">
+            <div class="image">
+                <img src="https://preview.redd.it/gwctsj9lbs731.jpg?width=640&crop=smart&auto=webp&s=2e50c85f5e649936703e78f977a4f350f13ff4ba"
+                    alt="Card Image">
+            </div>
+            <span class="tags">
+                <span class="tag">Nature</span>
+                <span class="tag">Lake</span>
+            </span>
+            <h2 class="title">
+                Switzerland Scene
+            </h2>
+            <h5 class="description">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad maxime perferendis adipisci consequatur
+                ducimus repudiandae laborum placeat eius ea sit facilis eveniet ut tenetur optio praesentium totam,
+                possimus similique vel.
+            </h5>
+            <h4 class="read-more">
+                Read more
+            </h4>
+
+        </div>
+    </div>
 </body>
+
 </html>
